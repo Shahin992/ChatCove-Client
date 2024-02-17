@@ -33,7 +33,7 @@ const OtherText = ({ e, user }) => {
           {checkImage && !imageExtensions.includes(checkImage) && (
             <div>
               <div className="flex flex-col justify-between">
-                <p>{e?.image?.split("/")[1]}</p>
+                <p>{e?.image}</p>
                 <figure className="my-2 w-10 h-10 rounded-full justify-center items-center flex">
                   <a
                     href={`${import.meta.env.VITE_BASE_URL}/photo/${e?.image}`}

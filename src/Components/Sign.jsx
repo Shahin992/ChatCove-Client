@@ -44,7 +44,7 @@ const Sign = () => {
       <div className="bg-white text-2xl md:text-5xl text-center pb-5 font-bold my-5">
         Welcome to ChatCove
       </div>
-      <div className="max-w-7xl mx-auto md:bg-purple-400 md:h-[800px] rounded-3xl">
+      <div className="max-w-7xl mx-auto md:bg-purple-400 md:h-[600px] rounded-3xl">
         <div className="flex flex-col md:flex-row w-full justify-center items-center h-full">
           <div className=" md:w-1/3 h-full bg-purple-400 py-8 rounded-2xl">
             <figure className="flex justify-center items-center md:relative">

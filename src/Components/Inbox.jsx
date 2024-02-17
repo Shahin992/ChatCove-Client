@@ -117,22 +117,22 @@ function Inbox() {
               </figure>
             </div>
           </button>
-          <button
-            onClick={handleLoghOut}
-            className="bg-blue-400 px-4 py-2 my-8 rounded-xl cursor-pointer"
-          >
-            Log Out
-          </button>
-          {/* {userVisible && (
-            <div>
-              <div className="relative">
-                <div className="bg-red-400 w-40 h-40 absolute top-20 right-20">
-                  <p>logout</p>
-                </div>
+        </div>
+        {userVisible && (
+          <div>
+            <div className="relative flex flex-co  justify-center items-center">
+              <div className="absolute right-2 -top-8 bg-white rounded-lg p-5 w-40">
+                <p className="text-xl font-bold mb-3">{loggedUser.name}</p>
+                <button
+                  onClick={handleLoghOut}
+                  className="bg-blue-400 px-4 py-2 rounded-xl cursor-pointer "
+                >
+                  Log Out
+                </button>
               </div>
             </div>
-          )} */}
-        </div>
+          </div>
+        )}
         <User data={users} active={useractive} userHandler={handleActiveUser} />
       </div>
       {/* Inbox */}
